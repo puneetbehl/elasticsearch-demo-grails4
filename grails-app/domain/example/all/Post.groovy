@@ -8,7 +8,5 @@ class Post {
     String subject
     String body
 
-    static searchable = {
-        all = false
-    }
+    static searchable = true
 }
